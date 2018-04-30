@@ -60,7 +60,7 @@ for(var i=0; i<num.length; i++){
 };
 return evenArray
 };
-evensOnly(myNumers)
+evensOnly(myNumbers)
 
 // #9 Using filter(), return only your friends of the array of people below. Assign it to a variable called 'trueFriends'.
 // CODE HERE
