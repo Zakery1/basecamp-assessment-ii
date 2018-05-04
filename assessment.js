@@ -81,8 +81,10 @@ var trueFriends = peopleIknow.filter(function(aFriend){
 // Create a new variable called 'indexes' and set it to contain the indexes of randomNumbers.
 function indexFinder(){
 let randomNumbers = [1, 3453, 34, 456, 32, 3, 2, 0];
+let indexes = [];
 for (var i = 0; i < randomNumbers.length; i++) {
-  indexes = i
-  console.log(indexes);
+  indexes.push(i)
 }
+console.log(indexes);
 };
+indexFinder();
